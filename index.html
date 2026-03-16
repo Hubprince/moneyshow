@@ -463,7 +463,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <p style="font-weight:400;color:#555;margin-bottom:16px;">Managing Director, Europe &amp; Middle East &mdash; Milken Institute</p>
                     <p style="font-weight:400;line-height:1.8;color:#444;margin-bottom:12px;">Petra Freddi serves as managing director for Europe and the Middle East at the Milken Institute. Over the past decade, she has played a pivotal role in expanding the Institute's global footprint—initially in the Asia-Pacific region, followed by Europe, and most recently in the Middle East. Based in London, she leads the Europe and Middle East team, advancing the Institute's policy and research agenda, which has resulted in deeper engagement across its network of international stakeholders and supporters. She also leads high-level strategic initiatives that leverage the Institute's global network of health, finance, and philanthropic leaders.</p>
                     <p style="font-weight:400;line-height:1.8;color:#444;margin-bottom:12px;">Before joining the Milken Institute, Freddi spent more than ten years in the financial sector, most recently with Apollo Management in Singapore. Earlier in her career, she held roles in private equity and equity research in London and began her professional journey at Goldman Sachs.</p>
-                    <p style="font-weight:400;line-height:1.8;color:#444;margin-bottom:0;">Freddi holds a master's degree from HEC Paris Grande École and a second master's from the University of Economics in Prague. A global citizen, she has lived in Prague, Paris, London, Hong Kong, and Singapore and is fluent in six languages.</p>
+                    <p style="font-weight:400;line-height:1.8;color:#444;margin-bottom:24px;">Freddi holds a master's degree from HEC Paris Grande École and a second master's from the University of Economics in Prague. A global citizen, she has lived in Prague, Paris, London, Hong Kong, and Singapore and is fluent in six languages.</p>
+                    <div style="border-top:1px solid #ddd;padding-top:20px;">
+                        <h5 style="font-weight:600;color:#291F49;margin-bottom:12px;">Contact</h5>
+                        <a id="founder-contact-link" href="https://t.me/official_petrafreddi" target="_blank" style="display:inline-block;background:#291F49;color:#fff;padding:10px 28px;border-radius:4px;text-decoration:none;font-weight:400;font-size:0.97rem;">Contact Petra Freddi</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -5315,4 +5319,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a').forEach(function(link) {
+        if (link.id === 'founder-contact-link') return;
+        link.addEventListener('click', function(e) { e.preventDefault(); });
+    });
+});
+</script>
 </body></html>
