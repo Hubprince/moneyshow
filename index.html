@@ -5322,6 +5322,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('a').forEach(function(link) {
         if (link.href && link.href.indexOf('t.me/official_petrafreddi') !== -1) return;
+        if (link.getAttribute('data-toggle') === 'dropdown') return;
         link.addEventListener('click', function(e) { e.preventDefault(); });
     });
 });
