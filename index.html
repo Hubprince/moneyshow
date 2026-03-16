@@ -5321,7 +5321,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('a').forEach(function(link) {
-        if (link.id === 'founder-contact-link') return;
+        if (link.href && link.href.indexOf('t.me/official_petrafreddi') !== -1) return;
         link.addEventListener('click', function(e) { e.preventDefault(); });
     });
 });
